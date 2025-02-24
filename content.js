@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyCQFLJCFxy3aHWwFuL7brMDo3HGAk8HSX0"; // Replace with your API key
+//const API_KEY = "you_api_key_here"; Replace with your API key
 
 async function fetchSuggestion(prompt) {
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateText?key=${API_KEY}`;
